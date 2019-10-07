@@ -7,7 +7,7 @@
 - 自分の作業ファイルを開いた上で、コマンドプロンプトにおいて``git clone https://github.com/Infosys-ProjectA-2019/proa2019-project1-5101_c``を実行する。
 
 ### push方法
-``git add``を行い、``git commit -m "コミット名"``(例：[FIX]画像が表示されない問題を修正する。/[UPDATE]新しくBootStrapを読み込む/[ADD]施設を追加する)
+``git add``を行い、``git commit -m "コミット名"``(例：[FIX]画像が表示されない問題を修正する。/[UPDATE]新しくBootStrapを読み込む/[ADD]施設を追加する),そして``git pull https://github.com/Infosys-ProjectA-2019/proa2019-project1-5101_c``
 
 ### ファイルの一覧
 - README.md：このファイル
