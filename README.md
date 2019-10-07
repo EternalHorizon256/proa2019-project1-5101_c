@@ -12,8 +12,9 @@
 ### ファイルの一覧
 - README.md：このファイル
 - .gitignore：Gitの管理対象外のファイルやフォルダを指定（今回の初期設定ではphotosフォルダを除外）
-- detail_example.html：紹介施設のページのテンプレート（→別名でファイルを保存して，各施設の紹介ページを作成）
 - data.json：紹介対象の施設などのデータを記入するJSON形式のファイル（要編集）
+- html/フォルダ
+  - html/TeamC- Introduction.html:施設紹介のポータブルサイトのHTML
 - js/フォルダ
   - js/readJSON.js：各チームで作成したデータファイルをページに書き込むJavaScriptプログラム（要編集）
 - css/フォルダ
