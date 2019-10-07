@@ -1,19 +1,46 @@
-/* CSSで評価の☆を表示（ソース元：https://cortyuming.hateblo.jp/entry/2017/03/22/131457）*/
+/*ソース源 https://www.webtoolnavi.com/star-rating-tutorial/ */
 
-.star-rating {
-	position: relative;
-	display:inline-block;
-	height: 1em;
-	width: 5em;
-	font-size: 50px;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+.star-ratings-css {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #a2a2a2;
 }
-
-.star-rating-front{
-	position: absolute;
-	color: #ffcc33; /* 星の色 */
-	overflow: hidden
+.star-ratings-css-top {
+  color: #e7711b;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: block;
+  top: 0;
+  left: 0;
+  overflow: hidden;
 }
-
-.star-rating-back {
-	color: #c0c0c0; /* ベースの星の色 */
+.star-ratings-css-bottom {
+  padding: 0;
+  display: block;
+  z-index: 0;
+}
+.star-ratings-sprite {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  font-size: 0;
+  height: 21px;
+  line-height: 0;
+  overflow: hidden;
+  text-indent: -999em;
+  width: 110px;
+  margin: 0 auto;
+}
+.star-ratings-sprite-rating {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2605/star-rating-sprite.png") repeat-x;
+  background-position: 0 100%;
+  float: left;
+  height: 21px;
+  display: block;
 }
