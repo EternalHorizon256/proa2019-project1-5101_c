@@ -13,3 +13,6 @@
 - css/フォルダ
   - css/ProA_style.css：各チームで装飾を行うCSSファイル（要編集）
   - css/star-rating.css：評価（☆の数）を表示するためのCSSファイル（編集不要）
+
+###　ファイルの編集方法
+- このリポジトリをforkした上、Forkしたリポジトリを自分で編集。編集して出た差異をPull requestにてリクエストしてください。確認してmargeします。
