@@ -27,6 +27,9 @@ main {
 	box-shadow: 2px 2px 4px gray; /*影の幅 右 下　ぼかしの幅　影の色(カラーコードも可） */
 }
 
+/*外部フォントのimportここから*/
+.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+
 /* 地図の表示領域の設定 */
 #map_here{
 	float: left;
@@ -35,3 +38,31 @@ main {
 	height: 240px;
 }
 
+/*画像の上に文字を搭載する機能を追加*/
+.mainphoto {
+  position: relative;
+  }
+
+.mainphoto p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  color: white;
+  font-family: "Sawarabi Mincho";
+  font-weight: bold;
+  font-size: 42px;
+  background-color: rgba(135,206,250,0.4);/*RBG指定。a(alpha)で透過指定。0<a<1で小数指定。0は完全透明なので注意。*/
+  }
+
+.mainphoto img {
+  width: 100%;
+  }
+
+.drop-shadow {
+  filter: drop-shadow(0 0 3px black);
+}
