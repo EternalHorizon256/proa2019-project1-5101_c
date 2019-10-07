@@ -6,8 +6,13 @@
 ### clone方法
 - 自分の作業ファイルを開いた上で、コマンドプロンプトにおいて``git clone https://github.com/Infosys-ProjectA-2019/proa2019-project1-5101_c``を実行する。
 
+### 編集方法
+Cグループは、Forkしたリポジトリを編集したうえでPull Requestを行い、私の手でmasterにマージする手法を用います。
+右上にForkするボタンがあるのでそれを押してForkしてください。すると自分のアカウントのリポジトリに追加されます。
+それを編集してできたものを[New Pull Request]を押してプルリクしてください。チェックしてマージします.
+
 ### push方法
-``git add``を行い、``git commit -m "コミット名"``(例：[FIX]画像が表示されない問題を修正する。/[UPDATE]新しくBootStrapを読み込む/[ADD]施設を追加する),そして``git push https://github.com/Infosys-ProjectA-2019/proa2019-project1-5101_c``
+``git add .``を行い、``git commit -m "コミット名"``(例：[FIX]画像が表示されない問題を修正する。/[UPDATE]新しくBootStrapを読み込む/[ADD]施設を追加する),そして``git push [ForkしたリポジトリのURL]``
 
 ### ファイルの一覧
 - README.md：このファイル
