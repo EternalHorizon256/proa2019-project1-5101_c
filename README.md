@@ -12,7 +12,7 @@ Cグループは、Forkしたリポジトリを編集したうえでPull Request
 それを編集してできたものを[New Pull Request]を押してプルリクしてください。チェックしてマージします.
 
 ### push方法
-``git add .``を行い、``git commit -m "コミット名"``(例：[FIX]画像が表示されない問題を修正する。/[UPDATE]新しくBootStrapを読み込む/[ADD]施設を追加する),そして``git push [ForkしたリポジトリのURL]``
+``git add .``を行い、``git commit -m "コミット名"``(例：[FIX]画像が表示されない問題を修正する。/[UPDATE]新しくBootStrapを読み込む/[ADD]施設を追加する),そして``git push [ForkしたリポジトリのURL(?以降は移さない。)]``
 
 ### ファイルの一覧
 - README.md：このファイル
