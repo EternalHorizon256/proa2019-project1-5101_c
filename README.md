@@ -20,6 +20,7 @@ Cグループは、Forkしたリポジトリを編集したうえでPull Request
 - data.json：紹介対象の施設などのデータを記入するJSON形式のファイル（要編集）
 - html/フォルダ
   - html/TeamC- Introduction.html:施設紹介のポータブルサイトのHTML
+  - html/photo: 写真を納品する場所。
 - js/フォルダ
   - js/readJSON.js：各チームで作成したデータファイルをページに書き込むJavaScriptプログラム（要編集）
 - css/フォルダ
