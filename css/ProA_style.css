@@ -27,6 +27,23 @@ main {
 	box-shadow: 2px 2px 4px gray; /*影の幅 右 下　ぼかしの幅　影の色(カラーコードも可） */
 }
 
+/*なんとなくaタグ*/
+a:link{
+	color: blue;
+	transition: 1s;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+a:visited{
+	color: purple;
+}
+
+a:hover{
+	color: white;
+	background-color: skyblue;
+}
+
 /*外部フォントのimportここから*/
 .wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
 
