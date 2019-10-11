@@ -26,20 +26,66 @@ main {
 .box-shadow{
 	box-shadow: 2px 2px 4px gray; /*影の幅 右 下　ぼかしの幅　影の色(カラーコードも可） */
 }
+/*DropDownMenu*/
+.dropdwn{
+    max-width: 1200px;
+    display: flex;
+}
 
-/*なんとなくaタグ*/
-a:link{
+ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    color: #fff;
+}
+li{
+    max-width: calc(1200px/5);
+    position: relative;
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.dropdwn>li{
+    width: 1200px;
+    margin: 1px;
+    display: inline;
+}
+
+.dropdwn_menu{
+    width: 100%;
+    display: none;
+    position: absolute;
+    margin-left: -5px;
+    margin-top: 5px;
+    padding: 0;
+    background: #6c757d;
+}
+
+.dropdwn_menu li{
+    width: 100%;
+}
+
+.dropdwn_menu li a{
+    padding: 5px 0;
+    margin: -5px 5px -5px -5px;
+    display: block;
+    color: #fff;
+}
+
+li a:hover{
+    background: #b3d7ff;
+    color: rgb(65, 65, 65);
+}
+.home{
+	margin-right: 10px;
+}
+.home:hover{
 	color: blue;
 	transition: 1s;
 	text-decoration: none;
-	font-size: 14px;
-}
-
-a:visited{
-	color: purple;
-}
-
-a:hover{
+	font-size: 16px;
 	color: white;
 	background-color: skyblue;
 }
