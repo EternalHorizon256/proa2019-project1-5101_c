@@ -45,14 +45,14 @@
 
 			<div class="container">
 				<div class="fontchange">
-					<h2 class="navbar-brand mt-10 mt-md-0 text-white " href="#">フロントページ</h2><!--ほかのページで施設入れるときはcol-10の値を変化させてうまい具合に突っ込む-->
+					<h2 class="navbar-brand mt-10 mt-md-0 col-2 text-white " href="#">フロントページ</h2><!--ほかのページで施設入れるときはcol-10の値を変化させてうまい具合に突っ込む-->
 				</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 
-				<ul class="dropdwn">
+				<ul class="dropdwn col-4">
 
 					<li class="home">藤沢市<!-- hrefのリンク先は各自で修正すること -->
 						<ul class="dropdwn_menu">
@@ -68,7 +68,7 @@
 					</li>
 				</ul>
 
-				<form class="form-inline mt-2 mt-md-0">
+				<form class="form-inline mt-2 mt-md-0 col-6">
 					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
 					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
 				</form>
@@ -90,7 +90,7 @@
 	<div class="container">
 		<div class="row m-3">
 			<div class="col-md-7">
-				<h2 class="pl-1 row-1 bg-lightblue">紹介対象のなまえ</h2>
+				<h2 class="pl-1 row-1 bg-lightblue">藤沢市</h2>
 					<span class="text-muted">This is test of class "text-muted"</span>
 				<p id="abstract" class="lead row-1">概要説明（施設や場所の紹介文）</p>
 				<p id="detail"> ここに詳細な説明を書き込んでいきます． </p>
@@ -100,17 +100,32 @@
 				<a href="./photos/download.jpg" data-lightbox="group">ここをクリック！</a>
 				<a href="./photos/kiui.jpg" data-lightbox="group"></a>
 			</div>
-			<div class="img-fluid col-md-7 border-dashed box-shadow">
+
+		<!-- 地図とか乗せるカード、機能的に変わるらしいのでコメントアウトして保存する。-->
+
+		<!--	<div class="img-fluid col-md-7 border-dashed box-shadow">
 				<!--（注：LightBox2のファイルがコピーされていなければ，別ページが開く，という動作になる．）-->
-				<h3 class="pl-3">施設名：○○</h3>
+		<!--		<h3 class="pl-3">施設名：○○</h3>
 
 				<!-- 評価の☆を表示する -->
-				<h3 class="pl-3">評価：<div class="star-ratings-sprite"><span style="width:52%" class="star-ratings-sprite-rating"></span></div></h3>
+		<!--		<h3 class="pl-3">評価：<div class="star-ratings-sprite"><span style="width:52%" class="star-ratings-sprite-rating"></span></div></h3>
 
 				<!-- 地図の表示 -->
-				<h3 class="pl-3">場所：(これは本来施設別のページに移すべき)</h3>
-				<iframe class="pl-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.4288110011216!2d139.41387671525032!3d35.36981918026807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601853b01b2d29f5%3A0x22408e7b5a6dceb1!2z5paH5pWZ5aSn5a2mIOa5mOWNl-OCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1570518316164!5m2!1sja!2sjp" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+		<!--		<h3 class="pl-3">場所：(これは本来施設別のページに移すべき)</h3>
+		<!--		<iframe class="pl-2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3253.4288110011216!2d139.41387671525032!3d35.36981918026807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601853b01b2d29f5%3A0x22408e7b5a6dceb1!2z5paH5pWZ5aSn5a2mIOa5mOWNl-OCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1570518316164!5m2!1sja!2sjp" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+			</div> -->
+
+		<!-- 各施設の紹介カードの部分ここから -->
+			<div class="img-fluid col-md-7 border-dashed box-shadow">
+				<a class="boxA" href="file://akakura/html/projectA/proa2019-project1-5101_c/html/TeamC-%20Introduction.html">
+					<div class="container">
+						<h3 class="row-md-3">秋葉台公園</h3>
+						<!--<h3 class="row-md-3"><div class="star-ratings-sprite"><span style="width:80%" class="star-ratings-sprite-rating"></span></div></h3>-->
+						<p class="row-md-6"><br>体育館、プール、球戯場、トレーニングルームなど、多種多様な施設が提供されています。</p>
+					</div>
+				</a>
 			</div>
+		<!-- 各施設の紹介カードの部分ここまで -->
 		</div>
 	</div>
 <!-- 紹介対象の内容（ここまで）-->
