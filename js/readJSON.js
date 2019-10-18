@@ -12,9 +12,9 @@ $(function(){
 			}
 		}
 
-		var url = "https://www.shonan.bunkyo.ac.jp/~hidenao/Lecture/ProA_2019/Project1_template/data.json";
+	//	var url = "https://www.shonan.bunkyo.ac.jp/~hidenao/Lecture/ProA_2019/Project1_template/data.json";
 		// data.jsonでの動作が確認できたら，↑の行をコメント（//を先頭に付ける）して，↓の行のコメント//を外す
-		//var url = "http://www.shonan.bunkyo.ac.jp/~学籍番号/cloneしたフォルダ/data.json";
+		var url = "http://www.shonan.bunkyo.ac.jp/~b9p31094/proa2019-project1-5101_c/data.json";
 
 		var id = 0; //URLに?id=番号を付けて読み込む場合は，以下のコメント/*と*/を外す
 		/*
