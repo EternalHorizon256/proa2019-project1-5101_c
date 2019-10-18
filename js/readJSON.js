@@ -14,18 +14,19 @@ $(function(){
 
 	//	var url = "https://www.shonan.bunkyo.ac.jp/~hidenao/Lecture/ProA_2019/Project1_template/data.json";
 		// data.jsonでの動作が確認できたら，↑の行をコメント（//を先頭に付ける）して，↓の行のコメント//を外す
-		var url = "http://www.shonan.bunkyo.ac.jp/~b9p31094/proa2019-project1-5101_c/data.json";
+		var url = "https://www.shonan.bunkyo.ac.jp/~b9p31013/proa2019-project1-5101_c/data.json";
 
 		var id = 0; //URLに?id=番号を付けて読み込む場合は，以下のコメント/*と*/を外す
 		/*
 		id = $.urlParam('id'); //?id=Nで指定されたとき
 		*/
-		if($("#obj_id").get(0)){ //紹介対象idを表す<input type="hidden" id="obj_id" value="0">があったら
-			id =$("#obj_id").val();
+		for(i=0;i<=20;i++){
+			if($("#obj_id").get(i)){ //紹介対象idを表す<input type="hidden" id="obj_id" value="i">があったら
+				id =$("#obj_id").val();
+			}
 		}
 
 		$.getJSON(url,function(data){ //urlの文字列のURLからidまたはqで指定した値を持つJSONオブジェクトを取得
-
 			var obj = data.introduction_obj_list[id]; //対象の１つ（一行）をオブジェクトとしてJSONから取り出す
 
 			if($("main").get(0)){ //<main>～</main>があったら
